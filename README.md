@@ -30,6 +30,7 @@ Un IDE comme Jupyter Notebook ou Visual Studio Code.
 # Structure du projet
 Voici la structure des fichiers principaux du projet :
 .
+
 ├── data/
 
 │   ├── dataset.csv        # Données initiales
