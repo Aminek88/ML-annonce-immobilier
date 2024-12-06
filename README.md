@@ -31,16 +31,27 @@ Un IDE comme Jupyter Notebook ou Visual Studio Code.
 Voici la structure des fichiers principaux du projet :
 .
 ├── data/
-│   ├── dataset.csv                # Données initiales
+
+│   ├── dataset.csv        # Données initiales
+
 │   ├── processed_data.csv         # Données après prétraitement
+
 ├── notebooks/
+
 │   ├── regression_analysis.ipynb  # Analyse et prédiction des prix
+
 │   ├── classification.ipynb       # Classification pour l'ascenseur
+
 ├── src/
+
 │   ├── preprocessing.py           # Code de prétraitement
+
 │   ├── models.py                  # Construction et évaluation des modèles
+
 ├── requirements.txt               # Liste des dépendances
+
 └── README.md                      # Ce fichier
+
 
 # Instructions pour exécuter le projet
 
@@ -58,12 +69,18 @@ Les fichiers générés, tels que les graphiques et les métriques, seront sauve
 Régression Polynomiale (degré 2) :
 
 MSE : 0.0019
+
 R² : 0.60264
+
 Classification (Meilleur modèle : Random Forest) : 0.80
 
+
 recall = 0.89
+
 Accuracy : 0.80
+
 Rapport de classification : 0.80
+
 
 # Auteur
 Nom : Mohammed Amine Ait Khazant
